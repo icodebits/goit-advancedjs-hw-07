@@ -4,7 +4,7 @@
   напишіть скорочену ініціалізацію.
 */
 
-class Student {
+/*class Student {
   public name: string;
   public age: number;
   public grade: string;
@@ -14,6 +14,15 @@ class Student {
     this.age = age;
     this.grade = grade;
   }
+}*/
+
+class Student {
+  constructor(
+    public name: string,
+    public age: number,
+    public grade: string
+  ) {}
 }
+
 
 export {};
